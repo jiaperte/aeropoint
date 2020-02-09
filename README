@@ -1,0 +1,9 @@
+0. git clone repo to local machine
+1. Ensure you have alreay install python3 and pip
+2. pip install -r requirements.txt
+3. chmod +x grab_data.py
+5. chmod +x teqc
+6. Using below command for testing
+ ./grab_data.py nybp 2020-01-08T10:11:24Z 2020-01-09T15:46:25Z 
+7. Using below command for unit testing
+  python3 -m unittest -v test_grab_data.py
